@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pickable item rokok__0: 8950248874037501075
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
