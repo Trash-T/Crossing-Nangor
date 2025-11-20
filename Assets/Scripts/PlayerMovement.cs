@@ -3,49 +3,23 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float movementSpeed = 3;
-    [ReadOnly] public Vector3 movementDirection;
+    public float movementSpeed;
+    public Rigidbody2D theRB;
 
     void Update()
     {
-        ReadInput();
-    }
+        theRB.linearVelocity = new Vector2(Input.GetAxisRaw("Horizontal")*movementSpeed, Input.GetAxisRaw("Vertical")*movementSpeed);
 
-    void FixedUpdate()
-    {
-        // Update position
-        transform.position += movementSpeed * Time.fixedDeltaTime * movementDirection;
-
-        // Update orientation
-        if (movementDirection.x > 0 && transform.localScale.x < 0 || movementDirection.x < 0 && transform.localScale.x > 0)
+        if(theRB.linearVelocity.x > 0)
         {
-            // Flip
-            transform.localScale = new(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            transform.localScale = Vector3.one;
+        }
+        if(theRB.linearVelocity.x < 0)
+        {
+            transform.localScale = new Vector3(-1f, 1f,1f);
         }
     }
 
-    void ReadInput()
-    {
-        float moveX = 0;
-        float moveY = 0;
-
-        if (Input.GetKey(KeyCode.W))
-        {
-            moveY++;
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            moveX--;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            moveY--;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            moveX++;
-        }
-
-        movementDirection = new Vector2(moveX, moveY).normalized;
-    }
 }
+
+ 
