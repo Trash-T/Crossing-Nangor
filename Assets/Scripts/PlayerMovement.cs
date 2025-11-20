@@ -10,6 +10,11 @@ public class PlayerMovement : MonoBehaviour
     {
         theRB.linearVelocity = new Vector2(Input.GetAxisRaw("Horizontal")*movementSpeed, Input.GetAxisRaw("Vertical")*movementSpeed);
 
+        if (Mathf.Abs(theRB.linearVelocity.x) > .01f && Mathf.Abs(theRB.linearVelocity.y) > .01f)
+        {
+            theRB.linearVelocity = new Vector2(theRB.linearVelocity.x, 0f);
+        }
+
         if(theRB.linearVelocity.x > 0)
         {
             transform.localScale = Vector3.one;
