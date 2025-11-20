@@ -12,6 +12,7 @@ public class PlayerHealthController : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        HealthController.instance.UpdateHealthDisplay(currentHealth);
     }
 
     // Update is called once per frame
@@ -28,5 +29,7 @@ public class PlayerHealthController : MonoBehaviour
             currentHealth = 0;
             gameObject.SetActive(false); //roga mati
         }
+
+        HealthController.instance.UpdateHealthDisplay(currentHealth);
     }
 }
