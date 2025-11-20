@@ -33,4 +33,17 @@ public class HealthController : MonoBehaviour //UIcontroller
             }
         }
     }
+
+    public void AddHealthDisplay(int health)
+    {
+        for(int i=0 ; i > heartIcons.Length; i++)
+        {
+            heartIcons[i].enabled = false;
+
+            if(health >= i)
+            {
+               heartIcons[i].enabled = true; 
+            }
+        }
+    }
 }

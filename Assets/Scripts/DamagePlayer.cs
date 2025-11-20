@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class DamagePlayer : MonoBehaviour
 {
+    public int damageAmount;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,7 +20,7 @@ public class DamagePlayer : MonoBehaviour
         if(other.CompareTag("Player"))
         {
       
-            PlayerHealthController.instance.DamagePlayer(); //manggil singleton
+            PlayerHealthController.instance.DamagePlayer(damageAmount); //manggil singleton
         }
         
        
