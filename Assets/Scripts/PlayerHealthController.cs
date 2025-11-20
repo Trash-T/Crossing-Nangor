@@ -7,7 +7,8 @@ public class PlayerHealthController : MonoBehaviour
     public float invisibilityLength = 1f;
     private float invisibilityCounter; //invisibility length = durasi player invisible, invisibility counter = countdown player pas invisible
     public SpriteRenderer theSR;
-    public Color normalColor, fadeColor;
+    public Color normalColor, fadeColor; 
+  
 
   
     private void Awake()
@@ -42,8 +43,7 @@ public class PlayerHealthController : MonoBehaviour
 
             if(currentHealth <= 0)
             {
-                currentHealth = 0;
-                gameObject.SetActive(false); //roga mati
+                PlayerDead();//roga mati
             }
 
         UpdateHealth();
@@ -66,13 +66,14 @@ public class PlayerHealthController : MonoBehaviour
         UpdateHealth();
     }
 
-    public void AddHealth3(int HealthAmount)
+
+    public void PlayerDead()
     {
-         currentHealth += 3;
-        if(currentHealth > maxHealth)
+        currentHealth = 0;
+        gameObject.SetActive(false);
+        if (GameOverScene.instance != null)
         {
-            currentHealth = maxHealth;
+            GameOverScene.instance.PopUp(); 
         }
-        UpdateHealth();
     }
 }
