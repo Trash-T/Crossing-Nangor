@@ -4,6 +4,10 @@ public class PlayerHealthController : MonoBehaviour
 {
     public static PlayerHealthController instance; //ini nmnya proses singleton biar script playerhealthcontroller gmpng diakses script lain
     public int currentHealth, maxHealth;
+    public float invisibilityLength = 1f;
+    private float invisibilityCounter;
+    public SpriteRenderer theSR;
+    public Color normalColor, fadeColor;
   
     private void Awake()
     {
@@ -12,24 +16,42 @@ public class PlayerHealthController : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        HealthController.instance.UpdateHealthDisplay(currentHealth);
+        UpdateHealth();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if(invisibilityCounter>0)
+        {
+            invisibilityCounter -= Time.deltaTime;
+        }
+        if(invisibilityCounter <= 0)
+        {
+            theSR.color = normalColor;
+        }
+       
     }
     public void DamagePlayer()
     {
-        currentHealth += -1;
-
-        if(currentHealth <= 0)
+        if(invisibilityCounter <= 0)
         {
-            currentHealth = 0;
-            gameObject.SetActive(false); //roga mati
-        }
+            invisibilityCounter = invisibilityLength;
+            currentHealth += -1;
+            theSR.color = fadeColor;
 
+            if(currentHealth <= 0)
+            {
+                currentHealth = 0;
+                gameObject.SetActive(false); //roga mati
+            }
+
+        UpdateHealth();
+        }
+        
+    }
+
+    void UpdateHealth()
+    {
         HealthController.instance.UpdateHealthDisplay(currentHealth);
     }
 }
