@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float movementSpeed;
     public Rigidbody2D theRB;
+    public float speed;
 
     void Update()
     {
