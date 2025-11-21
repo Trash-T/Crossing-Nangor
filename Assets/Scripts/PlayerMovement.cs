@@ -8,19 +8,19 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal")*movementSpeed, Input.GetAxisRaw("Vertical")*movementSpeed);
+        theRB.linearVelocity = new Vector2(Input.GetAxisRaw("Horizontal")*movementSpeed, Input.GetAxisRaw("Vertical")*movementSpeed);
 
-        if (Mathf.Abs(theRB.velocity.x) > .01f && Mathf.Abs(theRB.velocity.y) > .01f)
+        if (Mathf.Abs(theRB.linearVelocity.x) > .01f && Mathf.Abs(theRB.linearVelocity.y) > .01f)
         {
-            theRB.velocity = new Vector2(theRB.velocity.x, 0f);
+            theRB.linearVelocity = new Vector2(theRB.linearVelocity.x, 0f);
         }
 
-        if(theRB.velocity.x > 0)
+        if(theRB.linearVelocity.x > 0)
         {
             transform.localScale = Vector3.one;
         }
-        if(theRB.velocity.x < 0)
-        {
+        if(theRB.linearVelocity.x < 0)
+        { 
             transform.localScale = new Vector3(-1f, 1f,1f);
         }
     }
