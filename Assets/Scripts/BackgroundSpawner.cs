@@ -8,7 +8,7 @@ public class BackgroundSpawner : MonoBehaviour
     
     void Start()
     {
-        SpawnPipe();
+        SpawnBackground();
     }
 
     // Update is called once per frame
@@ -20,12 +20,12 @@ public class BackgroundSpawner : MonoBehaviour
         }
         else
         {
-            SpawnPipe();
+            SpawnBackground();
             timer = 0;
         } 
     }
 
-    void SpawnPipe()
+    void SpawnBackground()
     {
         Instantiate(background, transform.position, transform.rotation);
     }

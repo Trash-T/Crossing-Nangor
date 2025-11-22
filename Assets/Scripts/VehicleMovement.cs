@@ -2,23 +2,23 @@ using UnityEngine;
 
 public class VehicleMovement : MonoBehaviour
 {
-    public float speed;
-    public float deadZone = -15f;
+    public float speed = 1.5f;
+    public float deadZone = -20f;
     public bool isSpawnToRight = true;
 
     // Update is called once per frame
     void Update()
     {
-        if (isSpawnToRight == true)
-        {
-            transform.position = transform.position + Vector3.right * speed * Time.deltaTime;
-        }
-        else if (isSpawnToRight == false)
-        {
-            transform.position = transform.position + Vector3.left * speed * Time.deltaTime;
-        }
+        float directionX = isSpawnToRight ? 1f : -1f;
 
-        if (Mathf.Abs(transform.position.y) > Mathf.Abs(deadZone))
+        // combine movement
+        Vector3 moveDir = new Vector3(1f, -1f);
+
+        // apply movement
+        transform.position += moveDir * speed * Time.deltaTime;
+
+        // destroy when out of bounds
+        if (Mathf.Abs(transform.position.y) > deadZone || Mathf.Abs(transform.position.x) > deadZone)
         {
             Destroy(gameObject);
         }

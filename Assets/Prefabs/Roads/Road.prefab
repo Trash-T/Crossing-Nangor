@@ -57,6 +57,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2446015367947428327}
+  - component: {fileID: 8551876638272391135}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -79,6 +80,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 454935283186435133}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8551876638272391135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5061642361039239887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d84dc9015c18d5341a12ba3392881147, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 4745043825151013362, guid: a33648d724162c9499c03e14f44d6bd6, type: 3}
+  spawnRate: 8
 --- !u!1 &8851210428900238422
 GameObject:
   m_ObjectHideFlags: 0
