@@ -116,20 +116,20 @@ TextureImporter:
       name: Pohon besar_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 3
-        width: 149
-        height: 289
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 180
+        height: 300
+      alignment: 9
+      pivot: {x: 0.50689954, y: 0.2905282}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: be74865c12a106620800000000000000
-      internalID: 2765238903553673195
+      spriteID: 14d7f75c8987a2749bcc63203fb35cca
+      internalID: -279088453
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bfbfc961659b9aa478b1aa279123abb0
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pohon besar_0: -279088453
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

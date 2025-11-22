@@ -116,20 +116,20 @@ TextureImporter:
       name: Batu kecil_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 2
-        width: 130
-        height: 87
+        x: 0
+        y: 0
+        width: 150
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 866e8af55ce9205b0800000000000000
-      internalID: -5403582032340523416
+      spriteID: 761bc0896c8ae784ea16b586026e4381
+      internalID: -121337173
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 259982f03ba0d874fadc7dc8716ecf15
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Batu kecil_0: -121337173
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

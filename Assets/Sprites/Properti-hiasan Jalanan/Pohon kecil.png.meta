@@ -116,20 +116,20 @@ TextureImporter:
       name: Pohon kecil_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 13
-        width: 118
-        height: 157
+        x: 0
+        y: 0
+        width: 120
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f439f12f4aa17f20800000000000000
-      internalID: 3418700849000035568
+      spriteID: 1c77790df4cf7a3498bc469b3673296f
+      internalID: -1271026028
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 218bb20844c2da841873b125bce2c9f8
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pohon kecil_0: -1271026028
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

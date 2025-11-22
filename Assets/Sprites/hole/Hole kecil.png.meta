@@ -116,20 +116,20 @@ TextureImporter:
       name: Hole kecil_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 16
-        width: 146
-        height: 65
+        x: 0
+        y: 0
+        width: 150
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 60d175ea02ff985e0800000000000000
-      internalID: -1906712451385713402
+      spriteID: 76011ceb6aac81247a35e89355c43fe1
+      internalID: 480844691
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a3bfa45b4336e9546add5a47bbf6d2e9
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hole kecil_0: 480844691
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

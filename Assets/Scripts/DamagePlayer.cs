@@ -11,4 +11,13 @@ public class DamagePlayer : MonoBehaviour
             PlayerHealthController.instance.DamagePlayer(damageAmount); //manggil singleton
         }
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            PlayerHealthController.instance.DamagePlayer(damageAmount); //manggil singleton
+            Destroy(gameObject);
+        }
+    }
 }
