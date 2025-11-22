@@ -137,174 +137,20 @@ TextureImporter:
       name: Bus (truck)_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 0
-        width: 529
-        height: 314
+        width: 540
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8459f317df02cfc80800000000000000
-      internalID: -8287712941369748152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bus (truck)_1
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 291
-        width: 7
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38baa379bc025ec40800000000000000
-      internalID: 5540870975336917891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bus (truck)_2
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 296
-        width: 64
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c6394d3007f1de10800000000000000
-      internalID: 2220827671670634176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bus (truck)_3
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 268
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f162669c0e9f22460800000000000000
-      internalID: 7215604296847861279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bus (truck)_4
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 0
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 537e2b852c7237160800000000000000
-      internalID: 7021999959665993525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bus (truck)_5
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 15
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1e01fffd1c0d81e0800000000000000
-      internalID: -2194084120471990758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bus (truck)_6
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 3
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: acdcd9555871bfed0800000000000000
-      internalID: -2379282116700680758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bus (truck)_7
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 8
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 982331db037915320800000000000000
-      internalID: 2544981500027417225
+      spriteID: 26acc1c1ed5acf74da0c0761dc9cbc15
+      internalID: 970091368
       vertices: []
       indices: 
       edges: []
@@ -313,7 +159,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 24fd16473f0c5a04b9f5b0e203cf5301
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +168,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bus (truck)_0: 970091368
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 01d147d5fd6dff7499c2e42ef8cb7878
+guid: 51bc6266ba09d744e9f31fc896bd3c92
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6206464879230942388
-    second: Motor 2_0
+      213: 9077447431808203343
+    second: Campo verde_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Motor 2_0
+      name: Campo verde_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 200
-        height: 250
+        width: 736
+        height: 1104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c43808a53153ed9a0800000000000000
-      internalID: -6206464879230942388
+      spriteID: f4ab538485299fd70800000000000000
+      internalID: 9077447431808203343
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 240280e627213d84fbb758e58dba65af
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Motor 2_0: -6206464879230942388
+      Campo verde_0: 9077447431808203343
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -116,20 +116,20 @@ TextureImporter:
       name: Mobil 1_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 26
-        width: 270
-        height: 238
+        x: 0
+        y: 0
+        width: 280
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0fea4eae1106e0df0800000000000000
-      internalID: -212126502368268560
+      spriteID: 7753fe6e894e74142b3fe25557ed2d58
+      internalID: -1973732108
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 75576e33e441ae74fbe6c1690acdbed2
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mobil 1_0: -1973732108
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

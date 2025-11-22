@@ -116,20 +116,20 @@ TextureImporter:
       name: Mobil (angkot)_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 28
-        width: 252
-        height: 241
+        x: 0
+        y: 0
+        width: 280
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c51e4695a84e46da0800000000000000
-      internalID: -5952381524620549796
+      spriteID: 01c65077ed7a74f44b521c92a7b6c291
+      internalID: 1036555104
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c816a235bfd7de64fa3270e680fdfc8c
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mobil (angkot)_0: 1036555104
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

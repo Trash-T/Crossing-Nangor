@@ -116,20 +116,20 @@ TextureImporter:
       name: truck _0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 21
-        width: 506
-        height: 271
+        x: 0
+        y: 0
+        width: 540
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7e3c5cd6298718d50800000000000000
-      internalID: 6737799087825208295
+      spriteID: 7d6dd6aa37ab3ec469b4aeea01dd582d
+      internalID: 1460641734
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f1f4aac21ba0b114ca8cad2e8fb50eed
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      truck _0: 1460641734
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
