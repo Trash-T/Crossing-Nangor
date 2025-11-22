@@ -32,11 +32,12 @@ public class GameOverScene : MonoBehaviour
 
     public void PopUp()
     {
+        Time.timeScale = 0f;
         StartCoroutine(PopUpCoroutine());
     }
     IEnumerator PopUpCoroutine()
     {
-        yield return new WaitForSeconds(_popUpDelay);
+        yield return new WaitForSecondsRealtime(_popUpDelay);
         _canvasGroup.alpha = 1;
         _canvasGroup.interactable = true;
         _canvasGroup.blocksRaycasts = true;
@@ -48,10 +49,18 @@ public class GameOverScene : MonoBehaviour
     }
     public void Restart()
     {
+        _canvasGroup.interactable = false;
+        _canvasGroup.blocksRaycasts = false;
+
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void QuitGame()
     {
+        _canvasGroup.interactable = false;
+        _canvasGroup.blocksRaycasts = false;
+
+        Time.timeScale = 1f;
         Application.Quit();
 
 #if UNITY_EDITOR 
