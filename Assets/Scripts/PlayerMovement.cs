@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.Collections;
 using UnityEngine;
 
@@ -5,9 +6,16 @@ public class PlayerMovement : MonoBehaviour
 {
     public float movementSpeed;
     public Rigidbody2D theRB;
+    public bool canMove = true;
 
     void FixedUpdate()
     {
+        if (!canMove)
+        {
+            theRB.linearVelocity = Vector2.zero;
+            return;   
+        }
+
         theRB.linearVelocity = new Vector2(Input.GetAxisRaw("Horizontal")*movementSpeed, Input.GetAxisRaw("Vertical")*movementSpeed);
 
         if (Mathf.Abs(theRB.linearVelocity.x) > .01f && Mathf.Abs(theRB.linearVelocity.y) > .01f)
@@ -25,6 +33,12 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public IEnumerator DisableMovement(float duration)
+    {
+        canMove = false;
+        yield return new WaitForSeconds(duration);
+        canMove = true;
+    }
 }
 
  
