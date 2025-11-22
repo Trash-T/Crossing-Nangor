@@ -116,10 +116,10 @@ TextureImporter:
       name: truck _0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 21
-        width: 506
-        height: 271
+        x: 0
+        y: 0
+        width: 540
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7be498d51f2b3bf4da48c60339360104
     internalID: 0
     vertices: []
     indices: 

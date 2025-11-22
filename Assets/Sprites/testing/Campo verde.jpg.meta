@@ -1,31 +1,10 @@
 fileFormatVersion: 2
-guid: 392085188eb9ea047915235b1b705c4e
+guid: 51bc6266ba09d744e9f31fc896bd3c92
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8287712941369748152
-    second: Bus (truck)_0
-  - first:
-      213: 5540870975336917891
-    second: Bus (truck)_1
-  - first:
-      213: 2220827671670634176
-    second: Bus (truck)_2
-  - first:
-      213: 7215604296847861279
-    second: Bus (truck)_3
-  - first:
-      213: 7021999959665993525
-    second: Bus (truck)_4
-  - first:
-      213: -2194084120471990758
-    second: Bus (truck)_5
-  - first:
-      213: -2379282116700680758
-    second: Bus (truck)_6
-  - first:
-      213: 2544981500027417225
-    second: Bus (truck)_7
+      213: 9077447431808203343
+    second: Campo verde_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -134,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bus (truck)_0
+      name: Campo verde_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 540
-        height: 320
+        width: 736
+        height: 1104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8459f317df02cfc80800000000000000
-      internalID: -8287712941369748152
+      spriteID: f4ab538485299fd70800000000000000
+      internalID: 9077447431808203343
       vertices: []
       indices: 
       edges: []
@@ -159,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: cd5a90ef930491f46a310da363574cf4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -168,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Bus (truck)_0: -8287712941369748152
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
