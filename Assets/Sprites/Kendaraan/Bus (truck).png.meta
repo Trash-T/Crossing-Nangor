@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bus (truck)_0: -8287712941369748152
+      Bus (truck)_1: 5540870975336917891
+      Bus (truck)_2: 2220827671670634176
+      Bus (truck)_3: 7215604296847861279
+      Bus (truck)_4: 7021999959665993525
+      Bus (truck)_5: -2194084120471990758
+      Bus (truck)_6: -2379282116700680758
+      Bus (truck)_7: 2544981500027417225
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
