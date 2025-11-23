@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8843400789141853150}
   - component: {fileID: 2286488346645474682}
-  - component: {fileID: 6800104014593262052}
   - component: {fileID: 7430714715122366029}
   m_Layer: 0
   m_Name: Pohon besar
@@ -89,20 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &6800104014593262052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5345999562327677976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b7a156e81cde1a42b51779a22fd83c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 1.5
-  deadZone: -15
 --- !u!61 &7430714715122366029
 BoxCollider2D:
   m_ObjectHideFlags: 0

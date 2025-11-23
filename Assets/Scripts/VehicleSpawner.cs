@@ -10,7 +10,7 @@ public class VehicleSpawner : MonoBehaviour
     
     void Start()
     {
-        spawnRate = Random.Range(5, 8);
+        spawnRate = Random.Range(6, 10);
         SpawnVehicle();
     }
 

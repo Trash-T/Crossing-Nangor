@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1598486596131742064}
   - component: {fileID: 5395305541395719836}
   - component: {fileID: 639901431762956027}
-  - component: {fileID: 1034185004791680217}
   m_Layer: 0
   m_Name: Batu besar
   m_TagString: Untagged
@@ -135,17 +134,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.4614267, y: 0.39357996}
   m_EdgeRadius: 0
---- !u!114 &1034185004791680217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5765407479945698342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b7a156e81cde1a42b51779a22fd83c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 1.5
-  deadZone: -15

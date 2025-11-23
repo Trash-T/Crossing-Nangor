@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class VehicleMovement : MonoBehaviour
 {
-    public float speed = 1.5f;
+    private float speed = 1f;
     public float deadZone = -20f;
     public bool isSpawnToRight = true;
 

@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BackgroundMovement : MonoBehaviour
 {
-    public float movementSpeed = 1.5f;
-    public float deadZone = -15f;
+    private float movementSpeed = 1f;
+    private float deadZone = -22f;
 
     // Update is called once per frame
     void Update()
