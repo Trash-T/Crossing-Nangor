@@ -7,6 +7,7 @@ public class ProgressBar : MonoBehaviour
     public float maxTime = 300f;
     float time;
     public GameObject winScene;
+    public GameObject darkMode;
     void Start()
     {
         winScene.SetActive(false);
@@ -21,6 +22,14 @@ public class ProgressBar : MonoBehaviour
         {
             time += Time.deltaTime;
             bar.fillAmount = time / maxTime;
+            if(time >= 180 && time <= 240)
+            {
+                darkMode.SetActive(true);
+            }
+            else
+            {
+                darkMode.SetActive(false);
+            }
         }
         else
         {
