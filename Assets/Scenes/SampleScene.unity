@@ -2791,6 +2791,7 @@ GameObject:
   - component: {fileID: 2110920844}
   - component: {fileID: 2110920849}
   - component: {fileID: 2110920850}
+  - component: {fileID: 2110920851}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -2810,7 +2811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce446428894bb304285f65797f3c1501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 4
+  movementSpeed: 10
   theRB: {fileID: 2110920845}
   canMove: 1
   anim: {fileID: 2110920850}
@@ -2989,6 +2990,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2110920851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110920843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b7a156e81cde1a42b51779a22fd83c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2142596912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2999,15 +3012,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 380235071788075497, guid: 40d47396012380e4d8d1fa2833e5fe0b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1457473308053288883, guid: 40d47396012380e4d8d1fa2833e5fe0b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2322044483543995082, guid: 40d47396012380e4d8d1fa2833e5fe0b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2659181951290363169, guid: 40d47396012380e4d8d1fa2833e5fe0b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3055,11 +3068,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5301334940734790019, guid: 40d47396012380e4d8d1fa2833e5fe0b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8785530224791875692, guid: 40d47396012380e4d8d1fa2833e5fe0b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
