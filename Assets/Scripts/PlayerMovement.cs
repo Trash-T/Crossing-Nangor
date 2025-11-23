@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float movementSpeed;
     public Rigidbody2D theRB;
     public bool canMove = true;
+    public Animator anim;
 
     void FixedUpdate()
     {
@@ -31,6 +32,9 @@ public class PlayerMovement : MonoBehaviour
         { 
             transform.localScale = new Vector3(-1f, 1f,1f);
         }
+        anim.SetFloat("speed", Mathf.Abs(theRB.linearVelocity.x));
+        anim.SetFloat("yspeed",Input.GetAxisRaw("Vertical"));
+
     }
 
     public IEnumerator DisableMovement(float duration)
