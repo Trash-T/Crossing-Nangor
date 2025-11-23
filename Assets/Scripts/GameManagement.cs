@@ -6,6 +6,7 @@ public class GameManagement : MonoBehaviour
     public GameOverScene gameOverScene;
     public int enemiesCount = 0;
 
+
     void Awake()
     {
         Instance = this;
@@ -19,7 +20,6 @@ public class GameManagement : MonoBehaviour
 
     public void Lose()
     {
-        
         gameOverScene.PopUp();
         gameOverScene.SetMessage("You died!\nCan't win anyway");
 

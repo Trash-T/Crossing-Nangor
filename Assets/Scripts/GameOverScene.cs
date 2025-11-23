@@ -10,6 +10,11 @@ public class GameOverScene : MonoBehaviour
     private CanvasGroup _canvasGroup;
     public TextMeshProUGUI message;
     public static GameOverScene instance { get; private set; }
+    public GameObject player;
+    public Sprite playerDieUp;
+    public Sprite playerDieDown;
+    public Sprite playerDieLeft;
+    public Sprite playerDieRight;
 
  
     private void Awake()
@@ -32,6 +37,29 @@ public class GameOverScene : MonoBehaviour
 
     public void PopUp()
     {
+        Animator anim = player.GetComponent<Animator>();
+        if (anim != null) anim.enabled = false;
+        var dir = player.GetComponent<PlayerMovement>().lastDirection;
+
+        switch(dir)
+        {
+            case PlayerMovement.PlayerDirection.Up:
+                player.GetComponent<SpriteRenderer>().sprite = playerDieUp;
+                break;
+
+            case PlayerMovement.PlayerDirection.Down:
+                player.GetComponent<SpriteRenderer>().sprite = playerDieDown;
+                break;
+
+            case PlayerMovement.PlayerDirection.Left:
+                player.GetComponent<SpriteRenderer>().sprite = playerDieLeft;
+                break;
+
+            case PlayerMovement.PlayerDirection.Right:
+                player.GetComponent<SpriteRenderer>().sprite = playerDieLeft;
+                break;
+        }
+
         Time.timeScale = 0f;
         StartCoroutine(PopUpCoroutine());
     }
