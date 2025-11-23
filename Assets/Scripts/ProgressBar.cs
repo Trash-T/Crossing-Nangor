@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,20 +6,25 @@ public class ProgressBar : MonoBehaviour
     Image bar;
     public float maxTime = 300f;
     float time;
-   
+    public GameObject winScene;
     void Start()
     {
+        winScene.SetActive(false);
         bar = GetComponent<Image> ();
-        time = maxTime;
+        time = 0;
         
     }
 
     void Update()
     {
-        if (time > 0)
+        if (time <= maxTime)
         {
-            time -= Time.deltaTime;
+            time += Time.deltaTime;
             bar.fillAmount = time / maxTime;
+        }
+        else
+        {
+            winScene.SetActive(true);
         }
         
     }

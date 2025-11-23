@@ -1,18 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class PauseMenu : MonoBehaviour
+public class WinScene : MonoBehaviour
 {
-    [SerializeField] GameObject pauseMenu;
-    public void Pause()
+    void Start()
     {
-        pauseMenu.SetActive(true);
         Time.timeScale = 0f;
-    }
-
-    public void Resume()
-    {
-        pauseMenu.SetActive(false);
-        Time.timeScale = 1f;
     }
 
     public void Restart()
@@ -23,7 +15,6 @@ public class PauseMenu : MonoBehaviour
 
     public void Exit()
     {
-        Time.timeScale = 1f;
         Application.Quit();
         #if UNITY_EDITOR 
         UnityEditor.EditorApplication.isPlaying = false;
