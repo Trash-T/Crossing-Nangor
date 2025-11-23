@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8043958972398475855}
   - component: {fileID: 4999508748122634151}
-  - component: {fileID: 2855128462760931435}
   - component: {fileID: 8775115344491973625}
   m_Layer: 0
   m_Name: Semak kecil
@@ -89,20 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2855128462760931435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885257354609045740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b7a156e81cde1a42b51779a22fd83c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 1.5
-  deadZone: -15
 --- !u!61 &8775115344491973625
 BoxCollider2D:
   m_ObjectHideFlags: 0

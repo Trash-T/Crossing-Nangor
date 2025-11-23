@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1575767752294130540}
   - component: {fileID: 7800912595539878825}
   - component: {fileID: 5961789840317811709}
-  - component: {fileID: 2762148497876069156}
   m_Layer: 0
   m_Name: Pohon kecil
   m_TagString: Untagged
@@ -135,17 +134,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.5412549, y: 0.5861325}
   m_EdgeRadius: 0
---- !u!114 &2762148497876069156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3001684749686225798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b7a156e81cde1a42b51779a22fd83c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 1.5
-  deadZone: -15

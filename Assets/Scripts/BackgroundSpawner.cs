@@ -1,8 +1,10 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class BackgroundSpawner : MonoBehaviour
 {
-    public GameObject background;
+    public List<GameObject> backgrounds;
+    private GameObject background;
     public float spawnRate = 1.19f;
     private float timer = 0;
     
@@ -27,6 +29,7 @@ public class BackgroundSpawner : MonoBehaviour
 
     void SpawnBackground()
     {
+        background = backgrounds[Random.Range(0, 6)];
         Instantiate(background, transform.position, transform.rotation);
     }
 }

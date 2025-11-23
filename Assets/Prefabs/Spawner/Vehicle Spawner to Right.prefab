@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4357818193752357298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7324678710351642196}
+  - component: {fileID: 6688569692368239347}
+  m_Layer: 0
+  m_Name: Vehicle Spawner to Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7324678710351642196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4357818193752357298}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6688569692368239347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4357818193752357298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d84dc9015c18d5341a12ba3392881147, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicles:
+  - {fileID: 4588255983980296016, guid: 82eafc320c0f089438b8287871ddb654, type: 3}
+  - {fileID: 4745043825151013362, guid: a33648d724162c9499c03e14f44d6bd6, type: 3}
+  - {fileID: 769406358963483619, guid: 4b2a80cfe5788614ba04bb205a9defed, type: 3}
+  - {fileID: 7064871877965320098, guid: 2d4d65c3783a4154284c0d1ee73e5405, type: 3}
+  - {fileID: 2158235851869607533, guid: 3991fb5a35dcb9748ae11e623c72e80a, type: 3}
+  - {fileID: 4655666349740828793, guid: 52514501c85a8cf4c878de46698c3ae7, type: 3}
+  - {fileID: 751285680909285858, guid: bd41b8d3506ba4b40b0bc771d767d293, type: 3}
+  - {fileID: 7896624133780862315, guid: 314485faa1e31a046bc951b6bfbbdd66, type: 3}
+  - {fileID: 3046487383855754408, guid: b75b053e1578d204fa9cd05da32266cc, type: 3}
+  isSpawnToRight: 1

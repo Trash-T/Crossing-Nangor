@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4983546162407720693}
   - component: {fileID: 6209654758006080382}
   - component: {fileID: 2415677136743000613}
-  - component: {fileID: 2633379537347075296}
   - component: {fileID: 4242573782016338779}
   m_Layer: 0
   m_Name: Rokok
@@ -76,9 +75,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -850493259
+  m_SortingLayer: -1
+  m_SortingOrder: 5
   m_Sprite: {fileID: -2877936850684652804, guid: 469b31ea15e91c94393899e8404dcb07, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -103,20 +102,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
---- !u!114 &2633379537347075296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5023745985902355035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b7a156e81cde1a42b51779a22fd83c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 1.5
-  deadZone: -15
 --- !u!61 &4242573782016338779
 BoxCollider2D:
   m_ObjectHideFlags: 0
