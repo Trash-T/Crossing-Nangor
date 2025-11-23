@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 366334390e98f24498830e2c1cc0eba4
+guid: 11e4fb6271acbcc4e9333133e59269f4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2346330936137001196
-    second: Untitled145_20251121004447_0
+      213: -1813512769559441438
+    second: warung_0
   - first:
-      213: 7277987845702909326
-    second: Untitled145_20251121004447_1
+      213: 1352247241643283427
+    second: warung_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,40 +112,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled145_20251121004447_0
+      name: warung_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1536
-        height: 2048
+        width: 300
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4175b0ae178207fd0800000000000000
-      internalID: -2346330936137001196
+      spriteID: 46557249cc50d334d8a818cb8da77653
+      internalID: 1629401257
       vertices: []
       indices: 
       edges: []
@@ -154,7 +141,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1a6b24023d3113c4cba587352100357b
+    spriteID: b0f4dbe0db5f55c42b023f543daf828d
     internalID: 0
     vertices: []
     indices: 
@@ -164,7 +151,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled145_20251121004447_0: -2346330936137001196
+      warung_0: 1629401257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

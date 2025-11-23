@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 366334390e98f24498830e2c1cc0eba4
+guid: 9c746d9641deeae49b3349c8c7669f8b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2346330936137001196
-    second: Untitled145_20251121004447_0
-  - first:
-      213: 7277987845702909326
-    second: Untitled145_20251121004447_1
+      213: -8262830035375694336
+    second: j rumah_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,40 +109,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled145_20251121004447_0
+      name: j rumah_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1536
-        height: 2048
+        width: 300
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4175b0ae178207fd0800000000000000
-      internalID: -2346330936137001196
+      spriteID: 18ce73ac0d4f4ac47a5ba0fdfbc4afcb
+      internalID: 1934805305
       vertices: []
       indices: 
       edges: []
@@ -154,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1a6b24023d3113c4cba587352100357b
+    spriteID: abe8ed652e82ee648a5ba9b6ec6a5686
     internalID: 0
     vertices: []
     indices: 
@@ -164,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled145_20251121004447_0: -2346330936137001196
+      j rumah_0: 1934805305
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
