@@ -44,5 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d84dc9015c18d5341a12ba3392881147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vehicles:
+  - {fileID: 4588255983980296016, guid: 82eafc320c0f089438b8287871ddb654, type: 3}
+  - {fileID: 4745043825151013362, guid: a33648d724162c9499c03e14f44d6bd6, type: 3}
+  - {fileID: 769406358963483619, guid: 4b2a80cfe5788614ba04bb205a9defed, type: 3}
+  - {fileID: 7064871877965320098, guid: 2d4d65c3783a4154284c0d1ee73e5405, type: 3}
+  - {fileID: 2158235851869607533, guid: 3991fb5a35dcb9748ae11e623c72e80a, type: 3}
+  - {fileID: 4655666349740828793, guid: 52514501c85a8cf4c878de46698c3ae7, type: 3}
   vehicle: {fileID: 4588255983980296016, guid: 82eafc320c0f089438b8287871ddb654, type: 3}
   isSpawnToRight: 0

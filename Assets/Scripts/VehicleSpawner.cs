@@ -1,11 +1,12 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class VehicleSpawner : MonoBehaviour
 {
-    public GameObject vehicle;
+    public List<GameObject> vehicles;
+    private GameObject vehicle;
     private float spawnRate;
     private float timer = 0;
-    private string layer = "Default";
     public bool isSpawnToRight = true;
     
     void Start()
@@ -31,18 +32,23 @@ public class VehicleSpawner : MonoBehaviour
 
     void SpawnVehicle()
     {
-        GameObject obj = Instantiate(vehicle, transform.position, transform.rotation);
-        obj.GetComponent<SpriteRenderer>().sortingLayerName = layer;
-
-        VehicleMovement move = obj.GetComponent<VehicleMovement>();
-
         if (isSpawnToRight)
         {
+            vehicle = vehicles[Random.Range(0, 9)];
+            GameObject obj = Instantiate(vehicle, transform.position, transform.rotation);
+
+            VehicleMovement move = obj.GetComponent<VehicleMovement>();
+
             move.isSpawnToRight = true;
             move.transform.localScale = new Vector3(1f, 1f, 1f);   
         }
         else
         {
+            vehicle = vehicles[Random.Range(0, 6)];
+            GameObject obj = Instantiate(vehicle, transform.position, transform.rotation);
+
+            VehicleMovement move = obj.GetComponent<VehicleMovement>();
+
             move.isSpawnToRight = false;
             move.transform.localScale = new Vector3(-1f, 1f, 1f);   
         }
