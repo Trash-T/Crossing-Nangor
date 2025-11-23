@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,15 +10,15 @@ public class ProgressBar : MonoBehaviour
     void Start()
     {
         bar = GetComponent<Image> ();
-        time = maxTime;
+        time = 0;
         
     }
 
     void Update()
     {
-        if (time > 0)
+        if (time <= maxTime)
         {
-            time -= Time.deltaTime;
+            time += Time.deltaTime;
             bar.fillAmount = time / maxTime;
         }
         
