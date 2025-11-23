@@ -1,2 +1,17 @@
 fileFormatVersion: 2
 guid: d8cc6c05be489634a95397feed6afa15
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameOverScene: {instanceID: 0}
+  - player: {instanceID: 0}
+  - playerDieUp: {fileID: -1983966361, guid: ef27ab016cfed85418331a1d58f079a8, type: 3}
+  - playerDieDown: {fileID: -1936371553, guid: 766e3e49c58262a4fb89bff611aef32b, type: 3}
+  - playerDieLeft: {fileID: -155411376, guid: 52b46b525a744b64a8e2a4be745f87f0, type: 3}
+  - playerDieRight: {fileID: 717368854, guid: 1c5d1259d202abe4a9acc12a355f097a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,6 +8,10 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D theRB;
     public bool canMove = true;
     public Animator anim;
+    public enum PlayerDirection { Up, Down, Left, Right };
+    public PlayerDirection lastDirection = PlayerDirection.Down;
+
+
 
     void FixedUpdate()
     {
@@ -27,10 +31,20 @@ public class PlayerMovement : MonoBehaviour
         if(theRB.linearVelocity.x > 0)
         {
             transform.localScale = Vector3.one;
+            lastDirection = PlayerDirection.Right;
         }
         if(theRB.linearVelocity.x < 0)
         { 
             transform.localScale = new Vector3(-1f, 1f,1f);
+            lastDirection = PlayerDirection.Left;
+        }
+        if (theRB.linearVelocity.y > 0.01f)
+        {
+            lastDirection = PlayerDirection.Up;
+        }
+        else if (theRB.linearVelocity.y < -0.01f)
+        {
+            lastDirection = PlayerDirection.Down;
         }
         anim.SetFloat("speed", Mathf.Abs(theRB.linearVelocity.x));
         anim.SetFloat("yspeed",Input.GetAxisRaw("Vertical"));

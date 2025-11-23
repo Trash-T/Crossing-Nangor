@@ -70,7 +70,7 @@ public class PlayerHealthController : MonoBehaviour
     public void PlayerDead()
     {
         currentHealth = 0;
-        gameObject.SetActive(false);
+        // gameObject.SetActive(false);
         if (GameOverScene.instance != null)
         {
             GameOverScene.instance.PopUp(); 
