@@ -11,7 +11,7 @@ public class VehicleSpawner : MonoBehaviour
     
     void Start()
     {
-        spawnRate = Random.Range(6, 10);
+        spawnRate = Random.Range(8, 12);
         SpawnVehicle();
     }
 
@@ -24,7 +24,7 @@ public class VehicleSpawner : MonoBehaviour
         }
         else
         {
-            spawnRate = Random.Range(5, 8);
+            spawnRate = Random.Range(8, 12);
             SpawnVehicle();
             timer = 0;
         } 
