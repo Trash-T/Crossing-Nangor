@@ -14,13 +14,14 @@ public class SpeedChanger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             PlayerMovement player = collision.GetComponent<PlayerMovement>();
+            originalSpeed = player.movementSpeed;
+            
             if (canFreeze == true)
             {
                 player.StartCoroutine(player.DisableMovement(cantMoveTime));
             }
             else
             {
-                originalSpeed = player.movementSpeed;
                 newSpeed = slowPercentage / 100 * originalSpeed;
                 player.movementSpeed = newSpeed;
             }
