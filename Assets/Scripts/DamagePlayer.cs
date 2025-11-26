@@ -9,6 +9,7 @@ public class DamagePlayer : MonoBehaviour
         if(other.gameObject.CompareTag("Player"))
         {
             PlayerHealthController.instance.DamagePlayer(damageAmount); //manggil singleton
+            AudioManager.instance.PlaySFX(4);
         }
     }
 
@@ -18,6 +19,7 @@ public class DamagePlayer : MonoBehaviour
         {
             PlayerHealthController.instance.DamagePlayer(damageAmount); //manggil singleton
             Destroy(gameObject);
+            AudioManager.instance.PlaySFX(1);
         }
     }
 }

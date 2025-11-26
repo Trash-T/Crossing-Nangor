@@ -16,6 +16,7 @@ public class VehicleMovement : MonoBehaviour
 
         // apply movement
         transform.position += moveDir * speed * Time.deltaTime;
+        AudioManager.instance.PlaySFX(9);
 
         // destroy when out of bounds
         if (transform.position.y < deadZone && Mathf.Abs(transform.position.x) > deadZone)

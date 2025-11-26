@@ -10,16 +10,7 @@ public class HealthController : MonoBehaviour //UIcontroller
     {
         instance = this;
     }
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void UpdateHealthDisplay(int health)
     {
