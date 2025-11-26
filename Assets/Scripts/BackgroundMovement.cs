@@ -9,10 +9,11 @@ public class BackgroundMovement : MonoBehaviour
     void Update()
     {
         transform.position = transform.position + Vector3.down * movementSpeed * Time.deltaTime;
-        AudioManager.instance.PlaySFX(9);
+        AudioManager.instance.PlaySFX(12);
         if (transform.position.y < deadZone)
         {
-            Destroy(gameObject);
+            Destroy(gameObject); 
+          
             
         }
         
