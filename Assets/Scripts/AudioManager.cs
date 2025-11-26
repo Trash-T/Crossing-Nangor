@@ -23,4 +23,15 @@ public class AudioManager : MonoBehaviour
         allSFX[sfxToPlay].Stop();
         allSFX[sfxToPlay].Play();
     }
+    public void StopSFX(int sfxToStop)
+    {
+        if (sfxToStop >= 0 && sfxToStop < allSFX.Length)
+        {
+   
+            if (allSFX[sfxToStop] != null)
+            {
+                allSFX[sfxToStop].Stop();
+            }
+        }
+    }
 }

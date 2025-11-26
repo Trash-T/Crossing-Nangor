@@ -6,10 +6,13 @@ public class BackgroundMovement : MonoBehaviour
     private float deadZone = -22f;
 
     // Update is called once per frame
+    void start()
+    {
+        AudioManager.instance.PlaySFX(14);
+    }
     void Update()
     {
         transform.position = transform.position + Vector3.down * movementSpeed * Time.deltaTime;
-        AudioManager.instance.PlaySFX(12);
         if (transform.position.y < deadZone)
         {
             Destroy(gameObject); 

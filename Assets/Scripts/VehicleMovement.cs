@@ -6,7 +6,11 @@ public class VehicleMovement : MonoBehaviour
     public float deadZone = -20f;
     public bool isSpawnToRight = true;
 
-    // Update is called once per frame
+ 
+    void Start()
+    {
+        AudioManager.instance.PlaySFX(5);
+    }
     void Update()
     {
         float directionX = isSpawnToRight ? 1f : -1f;
@@ -22,6 +26,7 @@ public class VehicleMovement : MonoBehaviour
         if (transform.position.y < deadZone && Mathf.Abs(transform.position.x) > deadZone)
         {
             Destroy(gameObject);
+            AudioManager.instance.StopSFX(13);
         }
     }
 }
