@@ -21,7 +21,7 @@ public class SpeedChanger : MonoBehaviour
             else
             {
                 originalSpeed = player.movementSpeed;
-                newSpeed = slowPercentage / 100 * originalSpeed;
+                newSpeed = slowPercentage / 100 * originalSpeed; 
                 player.movementSpeed = newSpeed;
             }
         }

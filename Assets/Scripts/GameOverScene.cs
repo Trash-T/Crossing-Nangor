@@ -69,6 +69,9 @@ public class GameOverScene : MonoBehaviour
         _canvasGroup.alpha = 1;
         _canvasGroup.interactable = true;
         _canvasGroup.blocksRaycasts = true;
+        AudioManager.instance.PlaySFX(3);
+        AudioManager.instance.StopSFX(14);
+        AudioManager.instance.StopSFX(13);
     }
 
     public void SetMessage(string s)

@@ -56,6 +56,7 @@ public class ProgressBar : MonoBehaviour
         winScene.SetActive(false);
         bar = GetComponent<Image> ();
         time = 0;
+        AudioManager.instance.PlaySFX(14);
         
         if (playerObject != null)
         {
@@ -88,6 +89,8 @@ public class ProgressBar : MonoBehaviour
         }
         else
         {
+            winScene.SetActive(true);
+            AudioManager.instance.StopSFX(14);
             if (timeIsUp == false)
             {
                 timeIsUp = true;

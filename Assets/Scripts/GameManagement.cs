@@ -22,6 +22,7 @@ public class GameManagement : MonoBehaviour
     {
         gameOverScene.PopUp();
         gameOverScene.SetMessage("You died!\nCan't win anyway");
+        
 
     }
 }

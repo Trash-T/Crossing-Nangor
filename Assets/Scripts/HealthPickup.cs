@@ -11,6 +11,7 @@ public class HealthPickup : MonoBehaviour
             PlayerHealthController.instance.AddHealth(healthToAdd); 
             // HealthController.instance.AddHealthDisplay(healthToAdd); 
             Destroy(gameObject);
+            AudioManager.instance.PlaySFX(7);
         }
    }
 

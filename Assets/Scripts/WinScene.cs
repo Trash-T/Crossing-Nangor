@@ -5,6 +5,9 @@ public class WinScene : MonoBehaviour
     void Start()
     {
         Time.timeScale = 0f;
+        AudioManager.instance.PlaySFX(6);
+        AudioManager.instance.StopSFX(13);
+
     }
 
     public void Restart()
