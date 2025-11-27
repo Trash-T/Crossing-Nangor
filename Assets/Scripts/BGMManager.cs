@@ -3,7 +3,6 @@ using UnityEngine;
 public class BGMManager : MonoBehaviour
 {
     public static BGMManager instance;
-
     public AudioSource menuMusic;
 
     private void Awake()
@@ -16,6 +15,9 @@ public class BGMManager : MonoBehaviour
 
         instance = this;
         DontDestroyOnLoad(gameObject);
+
+        if (!menuMusic.isPlaying)
+            menuMusic.Play();
     }
 
     public void PlayMenuMusic()

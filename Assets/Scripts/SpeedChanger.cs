@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using UnityEngine;
 
 public class SpeedChanger : MonoBehaviour
@@ -7,6 +8,7 @@ public class SpeedChanger : MonoBehaviour
     public float slowPercentage = 50;
     public bool canFreeze = false;
     public float cantMoveTime = 3f;
+    private bool hasTriggered = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void OnTriggerEnter2D(Collider2D collision)
@@ -16,9 +18,10 @@ public class SpeedChanger : MonoBehaviour
             PlayerMovement player = collision.GetComponent<PlayerMovement>();
             originalSpeed = player.movementSpeed;
             
-            if (canFreeze == true)
+            if (canFreeze == true && !hasTriggered)
             {
                 player.StartCoroutine(player.DisableMovement(cantMoveTime));
+                hasTriggered = true;
             }
             else
             {
@@ -34,6 +37,7 @@ public class SpeedChanger : MonoBehaviour
         {
             PlayerMovement player = collision.GetComponent<PlayerMovement>();
             player.movementSpeed = originalSpeed;
+            hasTriggered = false;
         }
     }
 }

@@ -48,7 +48,6 @@ public class PlayerMovement : MonoBehaviour
         }
         anim.SetFloat("speed", Mathf.Abs(theRB.linearVelocity.x));
         anim.SetFloat("yspeed",Input.GetAxisRaw("Vertical"));
-
     }
 
     public IEnumerator DisableMovement(float duration)

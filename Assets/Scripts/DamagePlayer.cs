@@ -18,9 +18,12 @@ public class DamagePlayer : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             PlayerHealthController.instance.DamagePlayer(damageAmount); //manggil singleton
-            Destroy(gameObject);
             AudioManager.instance.PlaySFX(15);
-           
+
+            if (!gameObject.CompareTag("Hole"))
+            {
+                Destroy(gameObject);
+            }           
         }
     }
 }
