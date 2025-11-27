@@ -10,7 +10,7 @@ public class ProgressBar : MonoBehaviour
     public GameObject darkMode;
     
     public GameObject playerObject; 
-    public float finalMoveSpeed = 8f; 
+    public float finalMoveSpeed = 10f; 
     
     private Rigidbody2D playerRb;
     private Collider2D playerCol; 
@@ -89,7 +89,6 @@ public class ProgressBar : MonoBehaviour
         }
         else
         {
-            winScene.SetActive(true);
             AudioManager.instance.StopSFX(14);
             if (timeIsUp == false)
             {
