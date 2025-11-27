@@ -5100,6 +5100,8 @@ MonoBehaviour:
   maxTime: 300
   winScene: {fileID: 161955989}
   darkMode: {fileID: 1185094728}
+  playerObject: {fileID: 2110920843}
+  finalMoveSpeed: 8
 --- !u!114 &1868804551
 MonoBehaviour:
   m_ObjectHideFlags: 0
