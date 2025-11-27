@@ -5486,7 +5486,7 @@ MonoBehaviour:
   winScene: {fileID: 161955989}
   darkMode: {fileID: 1185094728}
   playerObject: {fileID: 2110920843}
-  finalMoveSpeed: 8
+  finalMoveSpeed: 10
 --- !u!114 &1868804551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5867,7 +5867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce446428894bb304285f65797f3c1501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 30
+  movementSpeed: 20
   theRB: {fileID: 2110920845}
   canMove: 1
   anim: {fileID: 2110920850}
