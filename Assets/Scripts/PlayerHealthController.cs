@@ -74,6 +74,7 @@ public class PlayerHealthController : MonoBehaviour
         if (GameOverScene.instance != null)
         {
             GameOverScene.instance.PopUp(); 
+            AudioManager.instance.PlaySFX(2);
         }
     }
 }
