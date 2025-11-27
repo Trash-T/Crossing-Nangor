@@ -6,7 +6,7 @@ public class BackgroundMovement : MonoBehaviour
     private float deadZone = -22f;
 
     // Update is called once per frame
-    void start()
+    void Start()
     {
         AudioManager.instance.PlaySFX(14);
     }
