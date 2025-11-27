@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1390926397510452415}
   - component: {fileID: 827982609251847643}
   - component: {fileID: 2854027547285193822}
+  - component: {fileID: 5551115624347198760}
   m_Layer: 0
   m_Name: Hole besar
   m_TagString: Untagged
@@ -140,4 +141,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slowPercentage: 50
   canFreeze: 1
-  cantMoveTime: 5
+  cantMoveTime: 3
+--- !u!114 &5551115624347198760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5115823615404231557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a7bffcb39ac74642858eb112a1168d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 1
