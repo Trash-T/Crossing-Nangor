@@ -1,37 +1,25 @@
 using UnityEngine;
-using System.Collections.Generic;
-using System.Collections;
 
 public class AudioManager : MonoBehaviour
 {
+    public AudioSource[] allSFX;
     public static AudioManager instance;
 
-    private void Awake()
-    {
-        instance = this;
-    }
-    public AudioSource menuMusic;
-    public AudioSource[] allSFX;
-
-    public void PlayMenuMusic()
-    {
-        menuMusic.Play();
+    private void Awake() { 
+        instance = this; 
     }
 
-    public void PlaySFX(int sfxToPlay)
+    public void PlaySFX(int i)
     {
-        allSFX[sfxToPlay].Stop();
-        allSFX[sfxToPlay].Play();
+        allSFX[i].Stop();
+        allSFX[i].Play();
     }
-    public void StopSFX(int sfxToStop)
+
+    public void StopSFX(int i)
     {
-        if (sfxToStop >= 0 && sfxToStop < allSFX.Length)
+        if (i >= 0 && i < allSFX.Length && allSFX[i] != null)
         {
-   
-            if (allSFX[sfxToStop] != null)
-            {
-                allSFX[sfxToStop].Stop();
-            }
+            allSFX[i].Stop();
         }
     }
 }

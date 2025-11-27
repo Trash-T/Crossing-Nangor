@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1c9bbaae3b323d94db985edd49cafaba
+guid: 129392a4fb638c34080b809a4da2cc2e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8221715584187439395
-    second: Batu besar_0
+      213: 203835155543474433
+    second: Desain tanpa judul (12)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Batu besar_0
+      name: Desain tanpa judul (12)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 200
-        height: 90
-      alignment: 9
-      pivot: {x: 0.5221516, y: 0.20071095}
+        width: 1080
+        height: 1920
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 097c8c814685c7743a8d15c7fae495f6
-      internalID: 67500660
+      spriteID: 101c7e67efa24d200800000000000000
+      internalID: 203835155543474433
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fee9c44fc9e0ea640b727c05c90652c3
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Batu besar_0: 67500660
+      Desain tanpa judul (12)_0: 203835155543474433
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

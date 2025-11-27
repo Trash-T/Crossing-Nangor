@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1c9bbaae3b323d94db985edd49cafaba
+guid: b83f9eb8c75b3a041a25d5d821de42f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8221715584187439395
-    second: Batu besar_0
+      213: -3055011394997521154
+    second: icon crossing nangor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Batu besar_0
+      name: icon crossing nangor_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 200
-        height: 90
-      alignment: 9
-      pivot: {x: 0.5221516, y: 0.20071095}
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 097c8c814685c7743a8d15c7fae495f6
-      internalID: 67500660
+      spriteID: ef4f668825b6a95d0800000000000000
+      internalID: -3055011394997521154
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fee9c44fc9e0ea640b727c05c90652c3
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Batu besar_0: 67500660
+      icon crossing nangor_0: -3055011394997521154
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

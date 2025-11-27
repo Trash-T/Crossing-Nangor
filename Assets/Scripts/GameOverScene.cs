@@ -52,11 +52,11 @@ public class GameOverScene : MonoBehaviour
                 break;
 
             case PlayerMovement.PlayerDirection.Left:
-                player.GetComponent<SpriteRenderer>().sprite = playerDieLeft;
+                player.GetComponent<SpriteRenderer>().sprite = playerDieRight;
                 break;
 
             case PlayerMovement.PlayerDirection.Right:
-                player.GetComponent<SpriteRenderer>().sprite = playerDieLeft;
+                player.GetComponent<SpriteRenderer>().sprite = playerDieRight;
                 break;
         }
 
