@@ -5822,7 +5822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce446428894bb304285f65797f3c1501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 20
+  movementSpeed: 8
   theRB: {fileID: 2110920845}
   canMove: 1
   anim: {fileID: 2110920850}
